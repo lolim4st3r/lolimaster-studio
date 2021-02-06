@@ -1,10 +1,71 @@
+@font-face {
+  font-family: myfont;
+  src: url("retroica.ttf") format('truetype');
+}
+
 body {
-  background-color: #000000;
+  background-color: #0F1014;
 }
 
 h1 {
-  font-family: verdana;
-  color: white;
-  font-size: 72px;
+  font-family: myfont;
+  color: #FDFDFD;
+  font-size: 64px;
+  margin: 0;
+  padding:0;
   text-align: center;
+  position: absolute;
+  top: 65%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+h2 {
+  color: #FDFDFD;
+  font-size: 12px;
+  margin: 0;
+  padding:0;
+  text-align: center;
+  position: absolute;
+  top: 95%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+.fix{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images{
+  text-align:center;
+  border:50px
+  margin: 0;
+  padding:0;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#images a>img
+{
+   margin-left:10px; /*to have the space above the image*/
+   margin-right:10px; /*to have the space under the image*/
+}
+
+#main_image{
+  text-align:center;
+  border:50px
+  margin: 0;
+  padding:0;
+  text-align: center;
+  position: absolute;
+  top: 37%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
 }
